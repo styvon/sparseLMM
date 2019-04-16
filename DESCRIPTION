@@ -1,0 +1,15 @@
+Package: sparseLMM
+Type: Package
+Title: SparseLMM: Genetic Association Test with Sparse Relatedness Matrix Logistic Mixed Model
+Version: 1.0.0
+Date: 2019-03-18
+Author: Yongwen Zhuang
+Maintainer: Yongwen Zhuang <zyongwen@umich.edu>
+Description: SparseLMM is an R package integrated with C++ Armadillo library and OpenMP API with a modified version of SAIGE's `fitNULLGLMM()` function, which enables the flexibility to use non-genetic variance component information while yielding feasible computation and memory efficiency.  
+License: GPL-3
+Imports: Rcpp (>= 1.0.0), RcppParallel, data.table, SPAtest (== 3.0.0),
+        RcppEigen, Matrix, methods
+LinkingTo: Rcpp, RcppArmadillo, RcppParallel
+RoxygenNote: 6.1.1
+Encoding: UTF-8 
+SystemRequirements: GNU make
